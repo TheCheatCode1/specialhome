@@ -4395,3 +4395,20 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+
+        .faq-item {
+            margin-bottom: 15px;
+        }
+        .faq-content {
+            display: none;
+            padding: 10px;
+            border-left: 2px solid #007BFF;
+            background: #f9f9f9;
+        }
+        .faq-active .faq-content {
+            display: block;
+        }
+        .faq-toggle {
+            float: right;
+            cursor: pointer;
+        }
